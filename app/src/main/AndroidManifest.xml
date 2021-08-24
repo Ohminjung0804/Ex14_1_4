@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Ex14_1_4">
+
+        <service android:name=".MusicService">
+            <intent-filter>
+                <action android:name="kr.hs.emirim.w2009.ex14_1_4.MusicService"/>
+            </intent-filter>
+        </service>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
